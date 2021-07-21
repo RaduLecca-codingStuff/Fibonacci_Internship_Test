@@ -1,10 +1,12 @@
 # Fibonacci_Internship_Test
 
 ~Instructions
+
 To go to the next number in the fibonacci sequnce, press the right arrow.
 To go to a previous one , press the left one instead.
 
 ~Design choices
+
 When I made the app, I focused of how much I could do in a short period of time, while also on keeping things cohesive.
 
 For the design of the layout, I initially went for something very simple: a button and a counter. The most important decision at that point was the variabes used to store the numbers for the fibonacci sequence.I chose to use the "long" variable for the task since, while there were variables which could allocate more memory with no problem, I thought "long" was decently big and compatible with many more devices. It took me half an hour to finish it.The idea was a bit too plain,so I came up with two ideas to improve the functionality: the ability to save the last fibonacci number and come back to that number and the ability to navigate through the fibonacci sequence. I thought that both options were incompatible with one another, so I chose the latter because it took less time to implement. 
